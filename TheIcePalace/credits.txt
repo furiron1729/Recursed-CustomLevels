@@ -1,0 +1,79 @@
+Thank you all for participating in making The Ice Palace!
+Without support from all these wonderful people, this would not have been possible.
+
+
+Lead Directors (Team Ice Palace)
+--------------------------------
+choongmyoung and QueuED
+
+
+Level Design
+------------
+(Check each level files for details after you solve them all!)
+
+Easy Mode       JiminP
+Manhole         QueuED
+Cliff           choongmyoung
+Side Effect     QueuED
+Sack            choongmyoung
+Deficient       choongmyoung
+Sunken          QueuED, choongmyoung
+Rabbit Hole     QueuED
+Cell            choongmyoung
+Barter          choongmyoung
+High Tide       choongmyoung
+Switch          QueuED, choongmyoung
+Mutual          choongmyoung
+Toss            choongmyoung, QueuED
+Cupboard        choongmyoung
+Share           choongmyoung
+Borrow          QueuED, choongmyoung
+Low Tide        choongmyoung
+Uphill          QueuED, choongmyoung
+Treasure        QueuED, choongmyoung
+Alley           choongmyoung
+Downhill        choongmyoung, QueuED
+Elevator        Eucleides
+Well            choongmyoung
+
+
+Graphic Design
+--------------
+:: Tiles ::
+glacier_v2      choongmyoung
+hanok           choongmyoung
+spring          QueuED
+fall            QueuED
+town            choongmyoung
+modern          Eucleides
+desert          choongmyoung
+
+:: Backgrounds ::
+frozen          QueuED, Eucleides, choongmyoung
+korean          choongmyoung
+nature          QueuED, choongmyoung
+gray            choongmyoung
+arrows          Eucleides
+sky             choongmyoung
+
+
+Beta-Testers
+------------
+Eucleides
+JiminP
+TonyWild
+WuTheFWasThat
+zzdldl31
+
+
+Miscellaneous
+-------------
+Recursed Editor         JiminP
+Windows Setup File      JiminP
+Logo Design             choongmyoung
+Homepage Development    QueuED
+
+
+Special Thanks
+--------------
+Recursed        Portponky
