@@ -1,0 +1,33 @@
+Easy Mode
+    Diamond
+        ・A locked door has been added in the paradox room (making it harder).
+
+Barter
+    Crystal
+        ・The locked door has been placed higher (requiring 2 keys).
+
+Toss
+    Crystal
+        ・The hole has been made wider (preventing the green key toss onto the lower left scaffolding).
+
+Share
+    Crystal
+        ・The platform on the right side of the key room has been removed (making it harder).
+
+Low Tide
+    Crystal
+        ・The locked door has been placed higher (making it harder).
+
+Uphill
+    Diamond
+        ・The distance to the key has been langthen (preventing 2 fans solution)
+
+Treasure
+    Crystal
+        ・The structure inside the pyramid has been changed (preventing double jump by green object).
+
+Alley
+    Crystal
+        ・The height of the fence has been increased (making it harder).
+    Ruby
+        ・The ruby has been placed higher (making it harder).

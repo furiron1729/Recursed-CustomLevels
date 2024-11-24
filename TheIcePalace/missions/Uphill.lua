@@ -255,20 +255,20 @@ end
 
 function reject()
   ApplyTiles(black, 0, 0, [[
-oo............oooooo
-oo............oooooo
-oo............oooooo
-oo............ooxxoo
-oo.....oooo---oooooo
-oo.....oxxo...oooooo
-oo.....oooo###oooooo
-oo.................o
-oo.................o
-oo.................o
-oo..........oo#####o
-oo.........ooooooooo
-oo........oo/\o/\o/o
-oo.......ooo..o..o.o
+o.............oooooo
+o.............oooooo
+o.............oooooo
+o.............ooxxoo
+o..oooooooo---oooooo
+o..oxxooxxo...oooooo
+o..oooooooo###oooooo
+o..................o
+o..................o
+o..................o
+o...........oo#####o
+o..........ooooooooo
+o.........oo/\o/\o/o
+o........ooo..o..o.o
 oooooooooooooooooooo
 ]])
 

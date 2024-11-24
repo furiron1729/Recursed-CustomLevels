@@ -31,47 +31,47 @@ end
 function roomA(is_wet)
   if is_wet then
     ApplyTiles(tile_mapping, 0, 0, [[
-...I........########
-...I...............I
-...I...............I
-012ITTTTTTTTTTTTTTTI
-klm####UUUUUUUUU####
-klm4556UUUUUUUUUUUUI
-klm4556UUUUUUUUUUUUI
-klmoKKqUUUUUUUUUU455
-klmUUUUUUUUUUUUUU455
-klmUUUUUUUUUUUUUU455
-klmUUUUUUUUUUUUUU455
-klm4556UUUUUUUUUU455
-klm4556UUUUUUUUUU455
-klm4556UUUUUUUUUU455
-klm4556RRRRRRRRRR455
+...I.........#######
+...I................
+...I................
+012ITTTTTTTTTTTTTTTT
+klm####UUUUUUUUUUUUU
+klm4556UUUUUUUUUU###
+klm4556UUUUUUUUUUUUU
+klmoKKqUUUUUUUUUUUUU
+klmUUUUUUUUUUUUUUU45
+klmUUUUUUUUUUUUUUU45
+klmUUUUUUUUUUUUUUU45
+klm4556UUUUUUUUUUU45
+klm4556UUUUUUUUUUU45
+klm4556UUUUUUUUUUU45
+klm4556RRRRRRRRRRR45
 ]])
   else
     ApplyTiles(tile_mapping, 0, 0, [[
-...I........########
-...I...............I
-...I...............I
-...I...............I
-...####.........####
-...4556............I
-ddd4556............I
-...oKKq..........455
-.................455
-.................455
-.................455
-0124556..........455
-klm4556..........455
-klm4556..........455
-klm4556dddddddddd455
+...I.........#######
+...I................
+...I................
+...I................
+...####.............
+...4556..........###
+ddd4556.............
+...oKKq.............
+..................45
+..................45
+..................45
+0124556...........45
+klm4556...........45
+klm4556...........45
+klm4556ddddddddddd45
 ]])
   end
-  Global("key", 16.75, 3.5)
-  Spawn("player", 18.25, 3)
+  Global("key", 17.75, 4.5)
+  Spawn("player", 19.25, 4)
   Spawn("yield", 5, 10)
   Spawn("lock", 3.5, 9.5)
   Spawn("crystal", 1.5, 1.75)
-  Spawn("box", 18, 6.5)
+  Spawn("box", 19, 7.5)
 end
 
 tiles = "../TheIcePalace/tiles/glacier_v2"

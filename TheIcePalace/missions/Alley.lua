@@ -62,7 +62,7 @@ h..............t...u
 b...jjj...........gh
 l...jjjqr..........h
 vM..tttAB..........h
-7...777778.........h
+7777777778.........h
 hhhhi............DEh
 h................FGh
 h..............2345h
@@ -72,7 +72,7 @@ h....FG........wxyzh
 ssssssssssssssssssss
 ]])
   Global("chest", 11, 13.5, "roomC")
-  Spawn("key", 2.5, 7.5)
+  Spawn("key", 2.5, 6.5)
   Spawn("player", 4, 13)
 end
 
@@ -179,16 +179,16 @@ I.........II.......I
 I..................I
 I..................I
 I..................I
+I..................I
 IIIIII.............I
 IIJIJI.............I
-IIIIII.............I
-II...I........IIIIII
-IIIIIIIIIIIIIIIJIJII
-IIIIIIK......HIIIIII
-IIIIII........IK.HII
+IIIIII........IIIIII
+II...I........IJIJII
+IIIIIIIIIIIIIIIIIIII
+IIIIIIK......HIK.HII
 IIIIII........IIIIII
 ]])
-  Spawn("diamond", 3.5, 3)
+  Spawn("diamond", 3.5, 2)
   Spawn("player", 16.5, 9)
 end
 
