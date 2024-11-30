@@ -106,10 +106,10 @@ VVVVVC.........BVVVV
 VC...............BVV
 VC................BV
 VVC...............BV
-VVC...BVVVVVVC....BV
+VVC...BVVVVVVVWWWWWV
 VVVVVVVVVC........BV
-BVVVVC..........BVVV
-VVVC............BVVV
+BVVVVC............BV
+VVVC..........BVVVVV
 VVC...........BVVVVC
 VVWWWWWWVVVVVVVVVVC.
 VVC......BVVVVVVVVVV
