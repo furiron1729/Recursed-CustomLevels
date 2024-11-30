@@ -17,7 +17,7 @@ function start(is_wet)
 .evvvvf.............
 gooooooh............
 ooooooooh...........
-vvvCoooooh..........
+oooooooooh..........
 vvvvvvvCooh.........
 vvvvvvvWoooh....km..
 vvvvvvvWooooh...ll..
@@ -26,9 +26,9 @@ vvvvvvvvvvvvvvzlllll
 vvvvvvvvvvvvvvvi4444
 ]])
   Spawn("player", 14, 12)
+  Spawn("lock", 2, 7.5)
   Spawn("lock", 6, 7.5)
-  Spawn("crystal", 4, 1)
-  Spawn("box", 19, 12.5)
+  Spawn("crystal", 4, 7.5)
   Spawn("cauldron", 11.25, 12.5, "rootB")
 end
 
@@ -41,18 +41,19 @@ function rootB(is_wet)
 ....................
 ...............;....
 ...............~....
-...............~;...
-..............;-_...
-..............*+..0k
-m2......0kllllllllll
+.....km........~;...
+.....ll.......;-_...
+.....ll.......*+..0k
+m2..0ll20kllllllllll
 llllllllllllllllllll
 44444444444444444444
 77777777777777777777
 rrrrrrrrrrrrrrrrrrrr
 ]])
-  Global("cauldron", 5, 10.5, "rootC")
+  Spawn("player", 13, 9)
+  Spawn("box", 3, 10)
+  Global("cauldron", 10.5, 9, "rootC")
   Spawn("chest", 15.5, 9.5, "roomD")
-  Spawn("player", 10.5, 9)
 end
 
 function rootC(is_wet)
@@ -87,8 +88,8 @@ rrrrrrrrrrrrrrrrrrrr
 tu&?IIIIIIIIIIII%:wx
 tu@$............X?wx
 tuZX............$^wx
-tu:Y...AB..AB...:&wx
-tu#%...AB..AB...#?wx
+tu:Y...AvvvvB...:&wx
+tu#%...AvvvvB...#?wx
 tu@#...AvvvvB...ZXwx
 tuZ/...IIIIII...!?wx
 tuY&............X/wx
@@ -97,10 +98,10 @@ tuvvvvvvvvvvvvvvvvwx
 tOPPPPPPPPPPPPPPPPQx
 rLLLLLLLLLLLLLLLLLLr
 ]])
-  Spawn("player", 10, 7)
-  Spawn("lock", 7.5, 10.5)
+  Spawn("player", 10, 5)
+  Spawn("lock", 7.51, 10.5)
   Spawn("generic", 10, 11.5)
-  Spawn("lock", 12.5, 10.5)
+  Spawn("lock", 12.49, 10.5)
 end
 
 function threadless(is_wet)

@@ -1,33 +1,45 @@
 Easy Mode
     Diamond
-        ・A locked door has been added in the paradox room (making it harder).
+        A locked door has been added in the paradox room.
 
 Barter
     Crystal
-        ・The locked door has been placed higher (requiring 2 keys).
+        The locked door has been placed higher (preventing the 1-key and 1-stone solution).
 
 Toss
     Crystal
-        ・The hole has been made wider (preventing the green key toss onto the lower left scaffolding).
+        The hole has been made wider (preventing the green key toss onto the lower-left scaffolding).
+
+Cupboard
+    Crystal
+        The structure of the first room has changed (preventing the 1-key solution).
+        The scaffolding on either side of the key has been removed.
+    Ruby
+        The scaffolding under the ruby has been removed.
+
+Switch
+    Crystal
+        The key has been placed on a platform 4 squares high.
 
 Share
     Crystal
-        ・The platform on the right side of the key room has been removed (making it harder).
+        The platform on the right side of the key room has been removed.
 
 Low Tide
     Crystal
-        ・The locked door has been placed higher (making it harder).
+        The locked door has been placed higher (preventing the pixel jump near the locked door).
 
 Uphill
     Diamond
-        ・The distance to the key has been langthen (preventing 2 fans solution)
+        The distance to the key has been lengthened (preventing the 2-fans solution).
 
 Treasure
     Crystal
-        ・The structure inside the pyramid has been changed (preventing double jump by green object).
+        The structure inside the pyramid has been changed (preventing the double jump with the green object).
+        The stone has been placed in a different room.
 
 Alley
     Crystal
-        ・The height of the fence has been increased (making it harder).
+        The height of the fence has been increased.
     Ruby
-        ・The ruby has been placed higher (making it harder).
+        The ruby has been placed higher.

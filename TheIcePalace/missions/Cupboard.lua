@@ -11,13 +11,13 @@ local tile_mapping = {["."]="empty", ["0"]="buoy_ul", ["1"]="buoy_u", ["2"]="buo
 function start(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
 6...............4555
-6...............4555
-6...............4555
 6...............o555
 6..................I
 6..................I
 6..................I
 6...............4555
+6...............4555
+6dddddd.........4555
 6...............4555
 KK7.............4555
 56..............4555
@@ -28,20 +28,20 @@ KK7.............4555
 ]])
   Spawn("player", 4, 10)
   Global("chest", 8.5, 12.5, "roomC")
-  Spawn("crystal", 14.5, 3.5)
-  Spawn("lock", 16.5, 5.5)
+  Spawn("crystal", 14.5, 1.5)
+  Spawn("lock", 16.5, 3.5)
   Global("cauldron", 12.5, 12.5, "rootB")
 end
 
 function rootB(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
 5556...............4
-5556...............4
-5556...............4
 555q...............4
 I..I...............4
 I..I...............4
 I..I...............4
+5556...............4
+5556...............4
 5556...............4
 5556...............4
 5556...............4
@@ -90,8 +90,8 @@ v..................t
 v46ddddd46.........t
 v46.....46.........t
 v46.....46.......##t
-v46#...#46.......##t
-v46#...#46.....45555
+v46.....46.......##t
+v46.....46.....45555
 v463KKK746.....45555
 55555555555555555555
 55555555555555555555
@@ -154,17 +154,17 @@ gg................gg
 gg................gg
 gg................gg
 gg................gg
-gggggg............gg
-gggifg............gg
-ggg..g............gg
-gggggg............gg
+gg................gg
+gg................gg
+gg................gg
 ggggggggeeegg.....gg
 gggifggg...gg.....gg
 ggg..ggg...gg.....gg
 gggggggghhhgg.....gg
-gggggggghhhggggggggg
+gggggggghhhgg.....gg
+gggggggggggggggggggg
 ]])
-  Spawn("player", 9.5, 12)
+  Spawn("player", 9.5, 11)
   Spawn("diamond", 4, 2)
   Spawn("chest", 14.5, 13.5, "rejectC")
   Global("cauldron", 16.5, 13.5, "rejectB")
@@ -178,18 +178,18 @@ gg................gg
 gg................gg
 gg................gg
 gg................gg
-gg............gggggg
-gg............gifggg
-gg............g..ggg
-gg............gggggg
+gg................gg
+gg................gg
+gg................gg
+gg.....ggeeegggggggg
+gg.....gg...gggifggg
+gg.....gg...ggg..ggg
 gg.....gghhhgggggggg
-gg.....gghhhgggifggg
-gg.....gggggggg..ggg
-gg.....ggggggggggggg
+gg.....gghhhgggggggg
 gggggggggggggggggggg
 ]])
   Spawn("chest", 5.5, 13.5, "rejectC")
-  Spawn("player", 10.5, 9)
+  Spawn("player", 10.5, 11)
   Global("cauldron", 3.5, 13.5, "reject")
 end
 
