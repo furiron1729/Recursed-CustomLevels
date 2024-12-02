@@ -6,6 +6,10 @@ Barter
     Crystal
         The locked door has been placed higher (preventing the 1-key and 1-stone solution).
 
+Switch
+    Crystal
+        The key has been placed on a platform 4 squares high.
+
 Toss
     Crystal
         The hole has been made wider (preventing the green key toss onto the lower-left scaffolding).
@@ -16,10 +20,6 @@ Cupboard
         The scaffolding on either side of the key has been removed.
     Ruby
         The scaffolding under the ruby has been removed.
-
-Switch
-    Crystal
-        The key has been placed on a platform 4 squares high.
 
 Share
     Crystal
