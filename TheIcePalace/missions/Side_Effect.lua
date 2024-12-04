@@ -11,17 +11,17 @@ function start(is_wet)
     ApplyTiles(tile_mapping, 0, 0, [[
 55555555555555555555
 55555555555555555555
-KKKLUUUUIUUUUUUUHKKK
-abQUUUUUIUUUUUUUUM9a
-uvUUUUUUIUUUUUUUUUtu
-uvUUUUUUIUUUUUUUUUtu
-uvUUUUUUIUUUUUUUUUtu
-uvUUU4556UUUUUUUUUtu
-uvUUU4556UUUUUUUUUtu
-uvUUUHKKLUUUUUHppqtu
-uvUUUUUUUUUUUUU456tu
-uvUUUUUUUUUUUUU456tu
-uvUUUUUUUUUUUUU456tu
+KKKLUUUUUUUUIUUUHKKK
+abQUUUUUUUUUIUUUUM9a
+uvUUUUUUUUUUIUUUUUtu
+uvUUUUU455556UUUUUtu
+uvUUUUUHKKKKLUUUUUtu
+uvUUUUUUUUUUUUUUUUtu
+uvUUUUUUUUUUUUUUUUtu
+uvoppLUUUUUUUUHppqtu
+uv456UUUUUUUUUU456tu
+uv456UUUUUUUUUU456tu
+uv456UUUUUUUUUU456tu
 55555555555555555555
 55555555555555555555
 ]])
@@ -29,27 +29,27 @@ uvUUUUUUUUUUUUU456tu
     ApplyTiles(tile_mapping, 0, 0, [[
 55555555555555555555
 55555555555555555555
-KKK7....I.......3KKK
-abc.....I........89a
-uv......I.........tu
-uv......I.........tu
-uv......I.........tu
-uv...4556.........tu
-uv...4556.........tu
-uv...3KK7.....3ppqtu
-uv.............456tu
-uv.............456tu
-uv.............456tu
+KKK7........I...3KKK
+abc.........I....89a
+uv..........I.....tu
+uv.....455556.....tu
+uv.....3KKKK7.....tu
+uv................tu
+uv................tu
+uvopp7........3ppqtu
+uv456..........456tu
+uv456..........456tu
+uv456..........456tu
 55555555555555555555
 55555555555555555555
 ]])
   end
-  Spawn("player", 10, 12)
+  Spawn("player", 3.5, 8)
   Spawn("chest", 16.5, 8.5, "roomB")
-  Global("box", 6.5, 6.5)
-  Global("box", 12.5, 12.5)
-  Spawn("lock", 7.625, 11.5)
-  Spawn("lock", 6.375, 11.5)
+  Global("box", 11, 4.5)
+  Global("box", 10, 12.5)
+  Spawn("lock", 9.625, 3.5)
+  Spawn("lock", 8.375, 3.5)
 end
 
 function roomB(is_wet)

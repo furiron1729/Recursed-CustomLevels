@@ -2,6 +2,10 @@ Easy Mode
     Diamond
         A locked door has been added in the paradox room.
 
+Side Effect
+    Crystal
+        The structure of the first room has been changed (preventing the cell solution).
+
 Barter
     Crystal
         The locked door has been placed higher (preventing the 1-key and 1-stone solution).
