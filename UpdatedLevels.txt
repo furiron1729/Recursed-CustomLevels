@@ -6,6 +6,11 @@ Side Effect
     Crystal
         The structure of the first room has been changed (preventing the cell solution).
 
+Sack
+    Crystal
+        The global box has been added.
+        The crystal has been placed higher.
+
 Barter
     Crystal
         The locked door has been placed higher (preventing the 1-key and 1-stone solution).
