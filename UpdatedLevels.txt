@@ -11,6 +11,10 @@ Sack
         The global box has been added.
         The crystal has been placed higher.
 
+Rabbit Hole
+    Crystal
+        The exit of the room has been placed higher.
+
 Barter
     Crystal
         The locked door has been placed higher (preventing the 1-key and 1-stone solution).
@@ -22,6 +26,7 @@ Switch
 Toss
     Crystal
         The hole has been made wider (preventing the green key toss onto the lower-left scaffolding).
+        The box has been placed in the upper left platform.
 
 Cupboard
     Crystal
@@ -33,6 +38,10 @@ Cupboard
 Share
     Crystal
         The platform on the right side of the key room has been removed.
+
+Borrow
+    Crystal
+        The acid has been placed between the ledge.
 
 Low Tide
     Crystal

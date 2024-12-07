@@ -35,10 +35,10 @@ function roomA(is_wet)
 ...I................
 ...I................
 012ITTTTTTTTTTTTTTTT
-klm####UUUUUUUUUUUUU
-klm4556UUUUUUUUUU###
-klm4556UUUUUUUUUUUUU
-klmoKKqUUUUUUUUUUUUU
+klmIUUUUUUUUUUUUUUUU
+klm####UUUUUUUUUU###
+klm4556UUUUUUUUUUU45
+klmoKKqUUUUUUUUUUU45
 klmUUUUUUUUUUUUUUU45
 klmUUUUUUUUUUUUUUU45
 klmUUUUUUUUUUUUUUU45
@@ -53,10 +53,10 @@ klm4556RRRRRRRRRRR45
 ...I................
 ...I................
 ...I................
-...####.............
-...4556..........###
-ddd4556.............
-...oKKq.............
+...I................
+...####..........###
+ddd4556...........45
+...oKKq...........45
 ..................45
 ..................45
 ..................45
@@ -71,7 +71,7 @@ klm4556ddddddddddd45
   Spawn("yield", 5, 10)
   Spawn("lock", 3.5, 9.5)
   Spawn("crystal", 1.5, 1.75)
-  Spawn("box", 19, 7.5)
+  Spawn("box", 5.5, 4.5)
 end
 
 tiles = "../TheIcePalace/tiles/glacier_v2"
