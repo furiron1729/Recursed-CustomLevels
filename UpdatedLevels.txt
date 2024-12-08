@@ -8,12 +8,16 @@ Side Effect
 
 Sack
     Crystal
-        The global box has been added.
+        A global box has been added.
         The crystal has been placed higher.
 
 Rabbit Hole
     Crystal
         The exit of the room has been placed higher.
+
+Cell
+    Diamond
+        A glitch room has been added due to Borrow's change.
 
 Barter
     Crystal
@@ -26,11 +30,11 @@ Switch
 Toss
     Crystal
         The hole has been made wider (preventing the green key toss onto the lower-left scaffolding).
-        The box has been placed in the upper left platform.
+        The box has been placed on the upper left platform.
 
 Cupboard
     Crystal
-        The structure of the first room has changed (preventing the 1-key solution).
+        The structure of the first room has been changed (preventing the 1-key solution).
         The scaffolding on either side of the key has been removed.
     Ruby
         The scaffolding under the ruby has been removed.
@@ -38,10 +42,12 @@ Cupboard
 Share
     Crystal
         The platform on the right side of the key room has been removed.
+        The green chest room has been changed due to Borrow's change.
 
 Borrow
-    Crystal
-        The acid has been placed between the ledge.
+    Whole Level
+        The entire level has been modified to Linger, which was created by Luraman (the level name remains unchanged).
+        This is a great level that requires new ideas.
 
 Low Tide
     Crystal
@@ -49,7 +55,7 @@ Low Tide
 
 Uphill
     Diamond
-        The distance to the key has been lengthened (preventing the 2-fans solution).
+        The distance to the key has been increased (preventing the 2-fans solution).
 
 Treasure
     Crystal
