@@ -24,7 +24,8 @@ J#...............455
 55555555555555555555
 55555555555555555555
 ]])
-  Spawn("player", 5.5, 8)
+  Spawn("player", 4, 8)
+  Global("key", 7, 8.5)
   Spawn("chest", 13.5, 11.5, "roomA")
 end
 
@@ -66,7 +67,6 @@ klm4556...........45
 klm4556ddddddddddd45
 ]])
   end
-  Global("key", 17.75, 4.5)
   Spawn("player", 19.25, 4)
   Spawn("yield", 5, 10)
   Spawn("lock", 3.5, 9.5)

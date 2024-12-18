@@ -11,11 +11,18 @@ Sack
         A global box has been added.
         The crystal has been placed higher.
 
+Deficient
+    Diamond
+        The structure of the crystal room has been changed.
+        The key is unenchanted, while the fan is enchanted.
+
 Rabbit Hole
     Crystal
-        The exit of the room has been placed higher.
+        The right scaffolding has been lowered by 1 tile.
 
 Cell
+    Crystal
+        The acid has been decreased (preventing the chest from being thrown into the acid from the center-left cell).
     Diamond
         A glitch room has been added due to Borrow's change.
 
@@ -30,7 +37,7 @@ Switch
 Toss
     Crystal
         The hole has been made wider (preventing the green key toss onto the lower-left scaffolding).
-        The box has been placed on the upper left platform.
+        The box has been placed on the upper-left platform.
 
 Cupboard
     Crystal
@@ -46,7 +53,7 @@ Share
 
 Borrow
     Whole Level
-        The entire level has been modified to Linger, which was created by Luraman (the level name remains unchanged).
+        The entire level has been modified to "Linger," created by Luraman (the level name remains unchanged).
         This is a great level that requires new ideas.
 
 Low Tide

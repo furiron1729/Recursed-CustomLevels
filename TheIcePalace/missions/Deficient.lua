@@ -33,9 +33,9 @@ end
 
 function roomA(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
-JJJJJJ#...........3K
-#JJJJJJ#...........4
-#..................4
+JJJJJJJ#..........3K
+#JJJJJJJ#.#........4
+#.........I........4
 I.........#JJ#JJ#..4
 I.........I..I.....4
 I...#JJJJJ#..I.....4
@@ -65,7 +65,7 @@ gg.....gggggg.....gg
 gg................gg
 gg................gg
 gg................gg
-gggeeegg....gggggggg
+gggeeegg.ee.gggggggg
 ggg...gg....gggggggg
 ggg...gg....gggggggg
 gggggggg....gggggggg
@@ -77,9 +77,8 @@ gggggggggggggggggggg
   Spawn("diamond", 10, 2.5)
   Spawn("lock", 8, 2.5)
   Spawn("lock", 12, 2.5)
-  Global("key", 7, 7.5)
-  Global("key", 13, 7.5)
-  Spawn("fan", 10, 13.5)
+  Spawn("key", 15.5, 7.5)
+  Global("fan", 10, 13.5)
 end
 
 tiles = "../TheIcePalace/tiles/glacier_v2"
