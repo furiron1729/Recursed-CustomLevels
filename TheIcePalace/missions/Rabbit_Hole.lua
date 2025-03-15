@@ -34,7 +34,6 @@ end
 function reject()
   ApplyTiles(tile_mapping, 0, 0, [[
 gggggggggggggggggggg
-gggggggggggggggggggg
 gg................gg
 gg................gg
 gg................gg
@@ -43,6 +42,7 @@ gg..........gggggggg
 gg................gg
 gg................gg
 gg................gg
+ggggggggggggggg...gg
 ggggggggggggggg...gg
 ggggggggggggggg...gg
 ggggggggggggggg...gg
@@ -50,14 +50,14 @@ ggggggggggggggg...gg
 gggggggggggggggggggg
 ]])
 
-  Spawn("player", 3.4, 9)
-  Spawn("key", 7.1, 9.5)
+  Spawn("player", 3.4, 8)
+  Spawn("key", 7.1, 8.5)
   Global("chest", 16.5, 13.5, "flood")
-  Spawn("lock", 12.5, 3.5)
-  Spawn("lock", 14.5, 3.5)
-  Spawn("diamond", 16.5, 3.5)
+  Spawn("lock", 12.5, 2.5)
+  Spawn("lock", 14.5, 2.5)
+  Spawn("diamond", 16.5, 2.5)
 
-  Spawn("record", 5.6, 9.5, "sounds/voices/v5r")
+  Spawn("record", 5.6, 8.5, "sounds/voices/v5r")
 end
 
 function flood(is_wet)

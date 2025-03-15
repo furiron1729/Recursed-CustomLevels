@@ -34,9 +34,9 @@ end
 function roomA(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
 JJJJJJJ#..........3K
-#JJJJJJJ#.#........4
-#.........I........4
-I.........#JJ#JJ#..4
+#JJJJJJJ#..........4
+#.........#JJJJ#...4
+I.........I..#JJ#..4
 I.........I..I.....4
 I...#JJJJJ#..I.....4
 I....#JJJJJJJ#.....4
@@ -49,7 +49,7 @@ I..............45555
 ?tuv.......455564555
 6tuv4555556455564555
 ]])
-  Spawn("player", 8.5, 13)
+  Spawn("player", 7.5, 13)
   Spawn("lock", 16.5, 5.5)
   Spawn("yield", 2.5, 9)
   Spawn("crystal", 6.5, 3.5)
