@@ -1,6 +1,6 @@
 Easy Mode
     Diamond
-        A locked door has been added in the paradox room.
+        A locked door has been added to the paradox room.
 
 Side Effect
     Crystal
@@ -19,16 +19,25 @@ Deficient
 Rabbit Hole
     Crystal
         The right scaffolding has been lowered by 1 tile.
+    Diamond
+        The diamond level has been added. This level came from stuck created by 280chan.
+        The number of ledges has been decreased.
 
 Cell
     Crystal
         The acid has been decreased (preventing the chest from being thrown into the acid from the center-left cell).
     Diamond
-        A glitch room has been added due to Borrow's change.
+        A second floor has been added.
+        A glitch room has been added.
 
 Barter
     Crystal
         The locked door has been placed higher (preventing the 1-key and 1-stone solution).
+
+High Tide
+    Crystal
+        The steps of the staircase have been changed.
+        The water is gone when room is dry.
 
 Switch
     Crystal
@@ -52,9 +61,8 @@ Share
         The green chest room has been changed due to Borrow's change.
 
 Borrow
-    Whole Level
-        The entire level has been modified to "Linger," created by Luraman (the level name remains unchanged).
-        This is a great level that requires new ideas.
+    Crystal
+        The acid gate has been added to the crystal room.
 
 Low Tide
     Crystal
@@ -74,3 +82,29 @@ Alley
         The height of the fence has been increased.
     Ruby
         The ruby has been placed higher.
+
+Well
+    Crystal
+        The height to return from the second scaffold to the first scaffold has been increased.
+
+Linger
+    This level created by Luraman has been added in A Day Out.
+
+Imprisoned
+    This level created by Luraman has been added in A Day Out.
+
+Girders
+    This level created by Luraman has been added in A Day Out.
+
+Return
+    This level created by sigma144 has been added in A Day Out.
+
+Escape
+    This level created by sigma144 has been added in A Day Out.
+
+Retrival
+    This level created by sigma144 has been added in A Day Out.
+    Ruby
+        Clouds have been added to the room with the ring.
+        The global box has been added to the rugy room.
+        The step has been steeper in the ruby room.

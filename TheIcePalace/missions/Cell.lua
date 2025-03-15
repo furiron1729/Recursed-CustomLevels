@@ -21,7 +21,7 @@ function start(is_wet)
 #KKKqUUUUUUUUUUUUUU4
 6UUUUUUUUUUUUUUoKKK#
 6UUUUUUUUUUUUUUUUUU4
-6UUUUUUUUUUUUUUUUUU4
+6UUUUUUUUUU#UUUUUUU4
 555555555556UUUUUUU4
 555555555556U4555555
 55555555555555555555
@@ -39,7 +39,7 @@ function start(is_wet)
 #KKKq..........X...4
 6..............oKKK#
 6..................4
-6..................4
+6..........#.......4
 555555555556.......4
 555555555556T4555555
 55555555555555555555
@@ -73,7 +73,7 @@ gg...........g.....g
 ggggggggeeeeeggggggg
 gg.....g.....g.....g
 ]])
-  Spawn("player", 10.5, 11)
+  Spawn("player", 10.5, 11.5)
   Global("generic", 5, 12.5)
   Spawn("chest", 3, 12.5, "rejectA")
   Spawn("chest", 7, 12.5, "rejectB")
@@ -86,11 +86,11 @@ function rejectA(is_wet)
 gggggggggUggggUUUggg
 gggUggggUUUggUUUUUgg
 ggUUUggUUUUUgUUUUUgg
+gUUUUUUUUUUUUUUUUUgg
+gUUUUUUUUUUUUUUUUUgg
+gUUUUUUUUUUUUUUUUUgg
 gUUUUUgUUUUUgUUUUUgg
-gUUUUUgUUUUUgUUUUUgg
-gUUUUUgUUUUUgUUUUUgg
-gUUUUUgUUUUUgUUUUUgg
-gggggggggggggggggggg
+gUgggUgggggggggggggg
 gUUUUUgUUUUUgUUUUUgg
 gUUUUUUUUUUUUUUUUUgg
 gUUUUUUUUUUUUUUUUUgg
@@ -104,11 +104,11 @@ gggggggggggggggggggg
 ggggggggg.gggg...ggg
 ggg.gggg...gg.....gg
 gg...gg.....g.....gg
+g.................gg
+g.................gg
+g.................gg
 g.....g.....g.....gg
-g.....g.....g.....gg
-g.....g.....g.....gg
-g.....g.....g.....gg
-gggggggggggggggggggg
+g.ggg.gggggggggggggg
 g.....g.....g.....gg
 g.................gg
 g.................gg
@@ -119,10 +119,12 @@ gggggggggggggggggggg
 ]])
   end
   Spawn("player", 15.5, 12)
-  Spawn("lock", 12.5, 10.5)
   Spawn("lock", 6.5, 10.5)
-  Global("box", 3.5, 12.5)
-  Spawn("fan", 9.5, 12.5)
+  Spawn("lock", 6.5, 4.5)
+  Spawn("lock", 12.5, 4.5)
+  Global("key", 9.5, 12.5)
+  Global("fan", 3.5, 12.5)
+  Global("box", 15.5, 6.5)
 end
 
 function rejectB(is_wet)
@@ -131,9 +133,9 @@ function rejectB(is_wet)
 gggUUUggggUggggggggg
 ggUUUUUggUUUggggUggg
 ggUUUUUgUUUUUggUUUgg
-ggUUUUUgUUUUUgUUUUUg
-ggUUUUUgUUUUUgUUUUUg
-ggUUUUUgUUUUUgUUUUUg
+ggUUUUUUUUUUUUUUUUUg
+ggUUUUUUUUUUUUUUUUUg
+ggUUUUUUUUUUUUUUUUUg
 ggUUUUUgUUUUUgUUUUUg
 ggggggggggggggUgggUg
 ggUUUUUgUUUUUgUUUUUg
@@ -149,9 +151,9 @@ gggggggggggggggggggg
 ggg...gggg.ggggggggg
 gg.....gg...gggg.ggg
 gg.....g.....gg...gg
-gg.....g.....g.....g
-gg.....g.....g.....g
-gg.....g.....g.....g
+gg.................g
+gg.................g
+gg.................g
 gg.....g.....g.....g
 gggggggggggggg.ggg.g
 gg.....g.....g.....g
@@ -165,29 +167,31 @@ gggggggggggggggggggg
   end
   Spawn("player", 4.5, 12)
   Spawn("lock", 13.5, 10.5)
-  Spawn("yield", 16.5, 6)
+  Spawn("lock", 13.5, 4.5)
+  Spawn("lock", 7.5, 4.5)
   Spawn("key", 10.5, 12.5)
+  Spawn("yield", 4.5, 6)
 end
 
 function glitch(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
-:+~~:+;;*~:;*~;::::~
-::;*:hh;+55*:pK*~*~:
-***;:gg:;%$*:6.*+**:
-;*;;:~;*++**~*:***:;
-;:;C.;;gg~~UH:*.I**;
-;~~VW;~fg**55+:.I*;*
-:;~::*;~....;+::;;:;
-:gg;;gg+....*gB;*pp*
-:.g*;gi*....+gB+:##*
-:~:**:;:....***:+~~:
-:*;KK+*gg:+ge::.g;*:
-~~:55*;if+*g.~+.g:;:
-~:;:*:*~**:;;++****;
-::+::hg+:d#*+hh;*~;;
-::~*:..:*.4:*.f*~:*;
+.g..g..&:./.ll...&..
+&ll+.Vl.~:.+~Vl~.g*/
+*:l/**V:lUUgA.V&gU..
+.*U*~g*....*..*V.U+.
+.//././g&:/.lg&*&g+.
+U~.~.............gl:
+.&;+............&.V.
+*.A;............gA..
+Ag./............glgV
+;lUg.....ee.....;+Al
+Ul.g............:U+.
+.&:+............g*;.
+..A;.............U*.
+&.;.............VV:;
++;.g............;&V*
 ]])
-  Spawn("player", 10, 9)
+  Spawn("player", 10, 14)
 end
 
 tiles = "../TheIcePalace/tiles/glacier_v2"

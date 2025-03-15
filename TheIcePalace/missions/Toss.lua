@@ -33,41 +33,41 @@ function roomA(is_wet)
   if is_wet then
     ApplyTiles(tile_mapping, 0, 0, [[
 ...I.........#######
-...I................
-...I................
-012ITTTTTTTTTTTTTTTT
-klmIUUUUUUUUUUUUUUUU
+...I...............I
+...I...............I
+012ITTTTTTTTTTTTTTTI
+klmIUUUUUUUUUUUUUUUI
 klm####UUUUUUUUUU###
-klm4556UUUUUUUUUUU45
-klmoKKqUUUUUUUUUUU45
-klmUUUUUUUUUUUUUUU45
-klmUUUUUUUUUUUUUUU45
-klmUUUUUUUUUUUUUUU45
-klm4556UUUUUUUUUUU45
-klm4556UUUUUUUUUUU45
-klm4556UUUUUUUUUUU45
-klm4556RRRRRRRRRRR45
+klm4556UUUUUUUUUU455
+klmoKKqUUUUUUUUUU455
+klmUUUUUUUUUUUUUU455
+klmUUUUUUUUUUUUUU455
+klmUUUUUUUUUUUUUU455
+klm4556UUUUUUUUUU455
+klm4556UUUUUUUUUU455
+klm4556UUUUUUUUUU455
+klm4556RRRRRRRRRR455
 ]])
   else
     ApplyTiles(tile_mapping, 0, 0, [[
 ...I.........#######
-...I................
-...I................
-...I................
-...I................
+...I...............I
+...I...............I
+...I...............I
+...I...............I
 ...####..........###
-ddd4556...........45
-...oKKq...........45
-..................45
-..................45
-..................45
-0124556...........45
-klm4556...........45
-klm4556...........45
-klm4556ddddddddddd45
+ddd4556..........455
+...oKKq..........455
+.................455
+.................455
+.................455
+0124556..........455
+klm4556..........455
+klm4556..........455
+klm4556dddddddddd455
 ]])
   end
-  Spawn("player", 19.25, 4)
+  Spawn("player", 18.3, 4)
   Spawn("yield", 5, 10)
   Spawn("lock", 3.5, 9.5)
   Spawn("crystal", 1.5, 1.75)

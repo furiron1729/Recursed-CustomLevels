@@ -188,7 +188,7 @@ IIIIIIIIIIIIIIIIIIII
 IIIIIIK......HIK.HII
 IIIIII........IIIIII
 ]])
-  Spawn("diamond", 3.5, 2)
+  Spawn("diamond", 2, 2)
   Spawn("player", 16.5, 9)
 end
 

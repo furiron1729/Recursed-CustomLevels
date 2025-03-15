@@ -33,7 +33,6 @@ end
 function roomA(is_wet)
   if is_wet then
     ApplyTiles(tile_mapping, 0, 0, [[
-;....LMrs9a:::::::::
 ;......LMrs9a:::::::
 ;........LMrs9a:::::
 q...P......LMrs9a:::
@@ -45,14 +44,14 @@ G...=?!^&........LMr
 3456P.......e...e..k
 n.../.......=?!^&..E
 H........e.........Y
-#$%......qooooooooIJ
+#$%.....wq........=?
+:::e.....qooooooooIJ
 :::q.....pKIJKIJKIJK
 :::IJKIJKIJKIJKIJKIJ
 ]])
-    Spawn("player", 2, 11)
+    Spawn("player", 2, 10)
   else
     ApplyTiles(tile_mapping, 0, 0, [[
-;....LMrs78.........
 ;......LMrs78.......
 ;........LMrs78.....
 q...P......LMrs78...
@@ -63,15 +62,16 @@ G...=?!^&........LMr
 =?!^&...=?!^&......0
 ....P.......e...e..k
 ..../.......=?!^&..E
-3456.....e.........Y
+.........e.........Y
+3456....wq........=?
 n........qooooooooIJ
 H..q.....pKIJKIJKIJK
 #$%IJKIJKIJKIJKIJKIJ
 ]])
     Spawn("player", 2, 13)
   end
-  Global("box", 6.5, 5.5)
-  Spawn("key", 2.5, 7.5)
+  Global("box", 7.5, 13.5)
+  Spawn("key", 2.5, 6.5)
   Spawn("yield", 4.75, 13)
   Spawn("yield", 6, 13)
 end
