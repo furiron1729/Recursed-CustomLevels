@@ -8,9 +8,9 @@ local tile_mapping = {["."]="empty", ["0"]="buoy_ul", ["1"]="buoy_u", ["2"]="buo
 
 function start(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
+5555555556..........
 KKKKKKKKp7..........
 89abc...I...........
-.tuv....I...........
 .tuv....I.........??
 .tuv....#.........3K
 .tuv...............4
@@ -28,8 +28,7 @@ KKKKKKKKp7..........
   Spawn("lock", 8.5, 6.5)
   Spawn("chest", 15.5, 10.5, "roomA")
   Global("box", 13.5, 10.5)
-  Global("box", 6, 7)
-  Spawn("crystal", 6, 2)
+  Spawn("crystal", 6, 4)
 end
 
 function roomA(is_wet)

@@ -1,110 +1,115 @@
-Easy Mode
-    Diamond
-        A locked door has been added to the paradox room.
+The Ice Palace (Original Levels)
 
-Side Effect
-    Crystal
-        The structure of the first room has been changed (preventing the cell solution).
+    Easy Mode
+        Diamond
+            A locked door has been added to the paradox room.
 
-Sack
-    Crystal
-        A global box has been added.
-        The crystal has been placed higher.
+    Cliff
+        Crystal
+            Bumps have been added (to indicate that there is a way to descend from the stone).
 
-Deficient
-    Diamond
-        The structure of the crystal room has been changed.
-        The key is unenchanted, while the fan is enchanted.
+    Side Effect
+        Crystal
+            The structure of the first room has been changed (to prevent the cell solution).
 
-Rabbit Hole
-    Crystal
-        The right scaffolding has been lowered by 1 tile.
-    Diamond
-        The diamond level has been added. This level came from stuck created by 280chan.
-        The number of ledges has been decreased.
+    Rabbit Hole
+        Crystal
+            The right scaffolding has been lowered by one tile.
+        Diamond
+            The diamond level has been added. This level is based on a stuck point discovered by 280chan.
+            The number of ledges has been reduced.
 
-Cell
-    Crystal
-        The acid has been decreased (preventing the chest from being thrown into the acid from the center-left cell).
-    Diamond
-        A second floor has been added.
-        A glitch room has been added.
+    Cell
+        Crystal
+            The acid has been repositioned (to prevent the chest from being thrown into it from the center-left cell).
+        Diamond
+            A second floor has been added.
+            A glitch room has been added.
 
-Barter
-    Crystal
-        The locked door has been placed higher (preventing the 1-key and 1-stone solution).
+    Barter
+        Crystal
+            The locked door has been placed higher (to prevent the 1-key, 1-stone solution).
 
-High Tide
-    Crystal
-        The steps of the staircase have been changed.
-        The water is gone when room is dry.
+    High Tide
+        Crystal
+            The water is removed when the room is dry.
 
-Switch
-    Crystal
-        The key has been placed on a platform 4 squares high.
+    Switch
+        Crystal
 
-Toss
-    Crystal
-        The hole has been made wider (preventing the green key toss onto the lower-left scaffolding).
-        The box has been placed on the upper-left platform.
+            The key has been placed on a platform four tiles high.
+    Toss
+        Crystal
+            The hole has been widened (to prevent tossing the green key onto the lower-left scaffolding).
+            The box has been placed on the upper-left platform.
 
-Cupboard
-    Crystal
-        The structure of the first room has been changed (preventing the 1-key solution).
-        The scaffolding on either side of the key has been removed.
-    Ruby
-        The scaffolding under the ruby has been removed.
+    Cupboard
+        Crystal
+            The structure of the first room has been changed (to prevent the 1-key solution).
+            The scaffolding on either side of the key has been removed.
+        Ruby
+            The scaffolding below the ruby has been removed.
 
-Share
-    Crystal
-        The platform on the right side of the key room has been removed.
-        The green chest room has been changed due to Borrow's change.
+    Share
+        Crystal
+            The platform on the right side of the key room has been removed.
+            The green chest room has been changed due to changes in Borrow.
 
-Borrow
-    Crystal
-        The acid gate has been added to the crystal room.
+    Borrow
+        Crystal
+            An acid gate has been added to the crystal room.
 
-Low Tide
-    Crystal
-        The locked door has been placed higher (preventing the pixel jump near the locked door).
+    Low Tide
+        Crystal
+            A wall has been added above the locked doors (to prevent a pixel jump near the locked door).
 
-Uphill
-    Diamond
-        The distance to the key has been increased (preventing the 2-fans solution).
+A Day Out (Original Levels)
 
-Treasure
-    Crystal
-        The structure inside the pyramid has been changed (preventing the double jump with the green object).
-        The stone has been placed in a different room.
+    Uphill
+        Diamond
+            The distance to the key has been increased (to prevent the 2-fan solution).
 
-Alley
-    Crystal
-        The height of the fence has been increased.
-    Ruby
-        The ruby has been placed higher.
+    Treasure
+        Crystal
+            The interior structure of the pyramid has been changed (to prevent a double jump using the green object).
+            The stone has been moved to a different room.
 
-Well
-    Crystal
-        The height to return from the second scaffold to the first scaffold has been increased.
+    Alley
+        Crystal
+            The fence has been made taller (to prevent the jar jump solution).
+        Ruby
+            The ruby has been placed higher.
 
-Linger
-    This level created by Luraman has been added in A Day Out.
+    Well
+        Crystal
+            The height between the second scaffold and the first scaffold has been increased (making it harder to return).
 
-Imprisoned
-    This level created by Luraman has been added in A Day Out.
+A Day Out (New Levels)
 
-Girders
-    This level created by Luraman has been added in A Day Out.
+    Linger
+        This level, created by Luraman, has been added in A Day Out.
 
-Return
-    This level created by sigma144 has been added in A Day Out.
+    Imprisoned
+        This level, created by Luraman, has been added in A Day Out.
+        Crystal
+            The structure of the crystal's room now matches the others (this simplifies the crystal solution).
+        Ruby
+            The structure of the ruby's has been changed (adding original crystal's solution)
 
-Escape
-    This level created by sigma144 has been added in A Day Out.
+    Girders
+        This level, created by Luraman, has been added in A Day Out.
+        Crystal
+            The entrance has been placed higher.
 
-Retrival
-    This level created by sigma144 has been added in A Day Out.
-    Ruby
-        Clouds have been added to the room with the ring.
-        The global box has been added to the rugy room.
-        The step has been steeper in the ruby room.
+    Return
+        This level, created by sigma144, has been added in A Day Out.
+
+    Escape
+        This level, created by sigma144, has been added in A Day Out.
+
+    Retrieval
+        This level, created by sigma144, has been added in A Day Out.
+        Ruby
+            Clouds have been added to the room with the ring.
+            The global box has been added to the ruby room.
+            The step in the ruby room has been made steeper.

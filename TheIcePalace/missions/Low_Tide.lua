@@ -9,16 +9,16 @@ local tile_mapping = {["."]="empty", ["0"]="buoy_ul", ["1"]="buoy_u", ["2"]="buo
 
 function start(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
-I.I.I...........I.I.
-JJIJ#...........#JIJ
-I.I...............I.
-IJ#.........#.#...I.
+I.I.I.......I.I.I.I.
+JJIJ#.......I.I.#JIJ
+I.I.........I.I...I.
+IJ#.........I.I...I.
+I...........I.I...I.
+I...........#J#...IJ
 I.................I.
-I.................IJ
 I.................I.
-I...........#JIJ#JJJ
-I...........I.I.I.I.
-I...#JJJ#...#JIJJJIJ
+I.................I.
+I...#JJJ#...#JIJ#JIJ
 I...I.I.I...I.I.I.I.
 I...IJJJIJJJIJJJIJJJ
 I.#.I.I.I.I.I.I.I.I.
@@ -26,11 +26,11 @@ JJIJJJIJJJIJJJIJJJIJ
 I.I.I.I.I.I.I.I.I.I.
 ]])
   Spawn("player", 6.5, 8)
-  Spawn("crystal", 16.5, 3.5)
+  Spawn("crystal", 16.5, 5.5)
   Spawn("key", 2.5, 11.5)
   Global("chest", 10.5, 10.5, "roomA")
-  Spawn("lock", 14.5, 5.5)
-  Spawn("lock", 12.5, 5.5)
+  Spawn("lock", 14.5, 7.5)
+  Spawn("lock", 12.5, 7.5)
 end
 
 function roomA(is_wet)

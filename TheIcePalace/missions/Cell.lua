@@ -21,9 +21,9 @@ function start(is_wet)
 #KKKqUUUUUUUUUUUUUU4
 6UUUUUUUUUUUUUUoKKK#
 6UUUUUUUUUUUUUUUUUU4
-6UUUUUUUUUU#UUUUUUU4
-555555555556UUUUUUU4
-555555555556U4555555
+6UUUUUUUUUUUUUUUUUU4
+#UUU#UUUUUUUUUUUUUU4
+55555555555555555555
 55555555555555555555
 ]])
   else
@@ -36,12 +36,12 @@ function start(is_wet)
 6..............j3KK#
 6..............D...4
 6..............D...4
-#KKKq..........X...4
+#KKKp7.........X...4
 6..............oKKK#
 6..................4
-6..........#.......4
-555555555556.......4
-555555555556T4555555
+6..................4
+#TTT#..............4
+55555555555555555555
 55555555555555555555
 ]])
   end
@@ -50,8 +50,8 @@ function start(is_wet)
   Spawn("lock", 15.5, 11.5)
   Global("box", 17.5, 8.5)
   Spawn("crystal", 17.5, 3.5)
-  Global("chest", 2.5, 11.5, "start")
-  Global("chest", 17.5, 12.5, "start")
+  Global("chest", 16.75, 12.5, "start")
+  Global("chest", 18.25, 12.5, "start")
   Spawn("key", 2.5, 7.5)
 end
 

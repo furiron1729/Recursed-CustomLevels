@@ -10,17 +10,19 @@ KKKK7...............
 455555556.......tuv.
 455555556...????tuv.
 455pKKKKq...ddddtuv.
-4556...=$.......tuv.
+4556...=#.......tuv.
 4556............tuv.
 4556............tuv.
-4556.....3K7....tuv.
-455555556.I.45555556
+4556............tuv.
+4555555563K745555556
 455555556.I.45555556
 455555556.I.45555556
 ]])
-Spawn("player", 14, 11)
-Spawn("crystal", 6, 3)
-Global("chest", 6, 11.5, "two")
+Spawn("player", 6, 4)
+Global("chest", 8, 4.5, "two")
+Spawn("lock", 8.47, 10.5)
+Spawn("crystal", 6, 10)
+
 end
 
 function two(is_wet)
@@ -43,9 +45,9 @@ KKKK7...............
 ]])
   Spawn("player", 6, 4)
   Spawn("chest", 8, 4.5, "one")
+  Spawn("lock", 8.47, 10.5)
   Spawn("box", 6, 11.5)
   Spawn("box", 6.5, 10.4)
-  Spawn("lock", 8.5, 10.5)
 end
 
 function one(is_wet)
@@ -67,7 +69,7 @@ KKKK7...............
 455555556.I.45555556
 ]])
   Spawn("player", 6, 4)
-  Spawn("lock", 8.5, 10.5)
+  Spawn("lock", 8.47, 10.5)
   Spawn("generic", 6, 11.5)
   Spawn("key", 14, 11.5)
 end
@@ -84,13 +86,13 @@ gifg...ggggggggggifg
 gggg...ghgghg...gggg
 gggg.....gg.....gggg
 gggg.....gg.....gggg
-ggggggg......ggggggg
+gggggggee....ggggggg
 gggifgg......ggifggg
 ggggggg......ggggggg
-gggggggeeeeeeggggggg
+gggggggeeeeggggggggg
 ggggggg......ggggggg
 ]])
-  Spawn("player", 15, 9)
+  Spawn("player", 10, 12)
   Spawn("diamond", 16.5, 3.5)
   Spawn("lock", 14.5, 3.5)
   Spawn("key", 14.5, 5.6)

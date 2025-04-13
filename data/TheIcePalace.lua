@@ -37,12 +37,12 @@ function outdoor()
   Add(8.5 + 0.1, 7.5 + 3 * x, Peg.Level, 15, "../TheIcePalace/missions/Elevator", "Elevator")
   Add(7, 7.5, Peg.Level, 15, "../TheIcePalace/missions/Well", "Well")
 
-  Add(10, 7.5 - 6 * x, Peg.Level, 24, "../TheIcePalace/missions/Linger", "Linger")
-  Add(14.5, 7.5 - 3 * x + 0.1, Peg.Level, 24, "../TheIcePalace/missions/Imprisoned", "Imprisoned")
-  Add(14.5, 7.5 + 3 * x + 0.1, Peg.Level, 24, "../TheIcePalace/missions/Girders", "Girders")
-  Add(10, 7.5 + 6 * x, Peg.Level, 24, "../TheIcePalace/missions/Return", "Return")
-  Add(5.5, 7.5 + 3 * x - 0.1, Peg.Level, 24, "../TheIcePalace/missions/Escape", "Escape")
-  Add(5.5, 7.5 - 3 * x - 0.1, Peg.Level, 24, "../TheIcePalace/missions/Retrieval", "Retrieval")
+  Add(10, 7.5 - 6 * x, Peg.Level, 20, "../TheIcePalace/missions/Linger", "Linger")
+  Add(14.5, 7.5 - 3 * x + 0.1, Peg.Level, 20, "../TheIcePalace/missions/Imprisoned", "Imprisoned")
+  Add(14.5, 7.5 + 3 * x + 0.1, Peg.Level, 20, "../TheIcePalace/missions/Girders", "Girders")
+  Add(10, 7.5 + 6 * x, Peg.Level, 20, "../TheIcePalace/missions/Return", "Return")
+  Add(5.5, 7.5 + 3 * x - 0.1, Peg.Level, 20, "../TheIcePalace/missions/Escape", "Escape")
+  Add(5.5, 7.5 - 3 * x - 0.1, Peg.Level, 20, "../TheIcePalace/missions/Retrieval", "Retrieval")
 
   return { bg = { 0.12, 0.24, 0.06 } }
 end
