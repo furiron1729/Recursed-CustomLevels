@@ -131,24 +131,24 @@ function threadlessB(is_wet)
 EEEEEEF...........DE
 EF................DE
 EF................DE
-EF..........DEF...DE
-EEEEEEEEEGGGGEF...DE
-EEF.........DEF...DE
-EF..........DEF...DE
-EF....DEGGGGGEF...DE
-EF....DEF.........DE
-EF...DEEF.........DE
-EF...DEEEEEEEEEEF.DE
-EEEEEEEEEEEEEEEEF.DE
-EEEEEEEEEEEEEEEEF.DE
+EF................DE
+EEEEEEEEGGGGEF....DE
+EEF.DEEF...DEF....DE
+EF...DEF...DEF....DE
+EF...DEEGGGGEF....DE
+EF.........DEF....DE
+EF.........DEF....DE
+EF...DEGGGGGEFDEF.DE
+EF...DEF......DEF.DE
+EF...DEF......DEF.DE
 EEEEEEEEEEEEEEEEF.DE
 EEEEEEEEEEEEEEEEEEEE
 ]])
-  Spawn("player", 3.5, 10)
+  Spawn("player", 3.5, 12)
   Spawn("lock", 4.75, 2.5)
   Spawn("ruby", 2.75, 2.5)
   Spawn("key", 17.5, 13.5)
-  Spawn("chest", 7.5, 3.5, "threadlessC")
+  Spawn("chest", 6.5, 3.5, "threadlessC")
 end
 
 function threadlessC(is_wet)
