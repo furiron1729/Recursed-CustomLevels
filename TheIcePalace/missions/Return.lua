@@ -208,7 +208,7 @@ Global("chest", 14, 12, "roomT1")
 
 end
 
-tiles = "../custom/tiles/woodplus"
+tiles = "../TheIcePalace/tiles/woodplus"
 pattern = "backgrounds/spooty"
 dark = {start = {0.04, 0.03, 0.31}, two = {0.22, 0.08, 0.02}}
 light = {start = {0.11, 0.26, 0.64}, two = {0.44, 0.15, 0.05}}

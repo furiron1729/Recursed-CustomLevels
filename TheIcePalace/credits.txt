@@ -35,6 +35,12 @@ Alley           choongmyoung
 Downhill        choongmyoung, QueuED
 Elevator        Eucleides
 Well            choongmyoung
+Linger          Luraman
+Imprisoned      Luraman
+Girders         Luraman
+Return          sigma144
+Escape          sigma144
+Retrieval       sigma144
 
 
 Graphic Design
@@ -47,6 +53,9 @@ fall            QueuED
 town            choongmyoung
 modern          Eucleides
 desert          choongmyoung
+woodplus        sigma144
+castleplus      sigma144
+whitepalace     sigma144
 
 :: Backgrounds ::
 frozen          QueuED, Eucleides, choongmyoung

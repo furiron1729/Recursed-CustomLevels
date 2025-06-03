@@ -290,7 +290,7 @@ function cage()
     Spawn("player", 10, 10)
 end
 
-tiles = "../custom/tiles/castleplus"
+tiles = "../TheIcePalace/tiles/castleplus"
 pattern = "backgrounds/scuzz"
 --dark = {start = {0.11, 0.08, 0.15}, two = {0.55, 0.22, 0.02}}
 --light = {start = {0.22, 0.13, 0.30}, two = {0.88, 0.44, 0.05}}

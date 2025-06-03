@@ -470,7 +470,7 @@ end
 
 
 
-tiles = "../custom/tiles/whitepalace"
+tiles = "../TheIcePalace/tiles/whitepalace"
 pattern = "backgrounds/tubes"
 dark = { start = {0, 0.3, 0.1}, two = {0.7, 0.25, 0}, reject = {0.25, 0, 0.35}, threadless = {0, 0.4, 0.75} }
 light = { start = {0, 0.5, 0.2}, two = {0.9, 0.5, 0}, reject = {0.5, 0, 0.7}, threadless = {0, 0.5, 0.9} }

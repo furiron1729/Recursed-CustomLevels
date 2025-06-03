@@ -31,12 +31,9 @@ line_h = {type=Tile.Solid, frame=46}
 brick_d = {type=Tile.Solid, frame=47}
 block = {type=Tile.Solid, frame=64}
 
-crystal = {type=Tile.Solid, frame=50}
-diamond = {type=Tile.Solid, frame=51}
-ruby = {type=Tile.Solid, frame=52}
-crystal_hint = {type=Tile.Solid, frame=82}
-diamond_hint = {type=Tile.Solid, frame=83}
-ruby_hint = {type=Tile.Solid, frame=84}
+pillarv_u = {type=Tile.Solid, frame=50}
+pillarv_c = {type=Tile.Solid, frame=51}
+pillarv_d = {type=Tile.Solid, frame=52}
 
 pillar_ull = {type=Tile.Solid, frame=9}
 pillar_ull_w = {type=Tile.Solid, frame=29}
@@ -72,14 +69,12 @@ cloud = { type = Tile.Sticky, frame = 58 }
 cloud_r = { type = Tile.Empty, frame = 39 }
 cloudledge = { type = Tile.Ledge, frame = 59 }
 
-stalactite_many = {type=Tile.Empty, frame=65}
-stalactite_big = {type=Tile.Empty, frame=66}
-stalactite_small = {type=Tile.Empty, frame=67}
-railing = {type=Tile.Empty, frame=68}
-railing_broken = {type=Tile.Empty, frame=69}
-stalagmite = {type=Tile.Empty, frame=70}
+ruin1 = {type=Tile.Solid, frame=65}
+ruin2 = {type=Tile.Solid, frame=66}
+grass1 = {type=Tile.Solid, frame=67}
+grass2 = {type=Tile.Solid, frame=68}
 
-glitch_tunnel = { type = Tile.Solid, frame = {71, 80, 81}, time = 0.14 }
+glitch_tunnel = { type = Tile.Solid, frame = {69, 70, 71}, time = 0.14 }
 glitch_check = { type = Tile.Solid, frame = {72, 73}, time = 0.12 }
 glitch_static1 = { type = Tile.Solid, frame = { 74, 75, 76, 77, 78}, time = 0.07 }
 glitch_static2 = { type = Tile.Solid, frame = { 75, 74, 77, 78, 76}, time = 0.07 }
