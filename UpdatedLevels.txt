@@ -100,6 +100,7 @@ A Day Out (New Levels)
         This level, created by Luraman, has been added in A Day Out.
         Crystal
             The entrance has been placed higher.
+            Added platforms to main (Unintended solution fix).
 
     Return
         This level, created by sigma144, has been added in A Day Out.
