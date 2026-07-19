@@ -18,11 +18,10 @@ KKKK7...............
 455555556.I.45555556
 455555556.I.45555556
 ]])
-Spawn("player", 6, 4)
-Global("chest", 8, 4.5, "two")
-Spawn("lock", 8.47, 10.5)
-Spawn("crystal", 6, 10)
-
+  Spawn("player", 6, 4)
+  Global("chest", 8, 4.5, "two")
+  Spawn("lock", 8.47, 10.5)
+  Spawn("crystal", 6, 10)
 end
 
 function two(is_wet)
@@ -76,27 +75,27 @@ end
 
 function reject(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
-ggggi fggggggi fgggg
+K7..................
+6...........89abcgee
+555556...????tuv.g..
+pKKKKq...ddddtuv.g..
+6...=#.......tuv.ge.
+6............tuv.g..
+6............tuv.g..
+6............tuv.ge.
+5555563K746dd4556g..
+555556.I.45555556g..
+555556.I.45555556ge.
+gggggggggggggggggg..
+g...................
+g...................
 gggggggggggggggggggg
-gg................gg
-gg................gg
-gg................gg
-ggggeeeggggggeeegggg
-gifg...ggggggggggifg
-gggg...ghgghg...gggg
-gggg.....gg.....gggg
-gggg.....gg.....gggg
-gggggggee....ggggggg
-gggifgg......ggifggg
-ggggggg......ggggggg
-gggggggeeeeggggggggg
-ggggggg......ggggggg
 ]])
-  Spawn("player", 10, 12)
-  Spawn("diamond", 16.5, 3.5)
-  Spawn("lock", 14.5, 3.5)
-  Spawn("key", 14.5, 5.6)
-  Spawn("fan", 5.5, 9.5)
+  Spawn("player", 3, 13)
+  Spawn("lock", 5.47, 6.5)
+  Spawn("key", 12, 7.5)
+  Spawn("fan", 7.5 , 6.5)
+  Spawn("diamond", 3, 6)
 end
 
 tiles = "../TheIcePalace/tiles/glacier_v2"

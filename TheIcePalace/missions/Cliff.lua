@@ -24,11 +24,11 @@ function start(is_wet)
 5555555555556....455
 5555555555556....455
 ]])
-  Spawn("player", 10.5, 12)
+  Spawn("player", 15, 11)
+  Global("box", 6.5, 12.5)
+  Spawn("key", 8.5, 12.6)
+  Spawn("chest", 10.5, 12, "roomA")
   Spawn("crystal", 2.5, 1)
-  Global("box", 8.5, 12.5)
-  Spawn("chest", 15, 11.5, "roomA")
-  Spawn("key", 6.5, 12.6)
 end
 
 function roomA(is_wet)

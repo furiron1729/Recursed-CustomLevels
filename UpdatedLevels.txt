@@ -12,11 +12,16 @@ The Ice Palace (Original Levels)
         Crystal
             The structure of the first room has been changed (to prevent the cell solution).
 
+    Sack
+        Crystal
+            A ledge has been added in the first room.
+
     Rabbit Hole
         Crystal
             The right scaffolding has been lowered by one tile.
+            The crystal has been placed higher.
         Diamond
-            The diamond level has been added. This level is based on a stuck point discovered by 280chan.
+            The diamond level has been added. This level is based on Stuck created by 280chan.
             The number of ledges has been reduced.
 
     Cell
@@ -32,11 +37,10 @@ The Ice Palace (Original Levels)
 
     High Tide
         Crystal
-            The water is removed when the room is dry.
+            The water has been removed when the room is dry.
 
     Switch
         Crystal
-
             The key has been placed on a platform four tiles high.
     Toss
         Crystal
@@ -73,6 +77,10 @@ A Day Out (Original Levels)
         Crystal
             The interior structure of the pyramid has been changed (to prevent a double jump using the green object).
             The stone has been moved to a different room.
+        Diamond
+            New level has been added.
+        Ruby
+            The chest with oobleck has been changed green.
 
     Alley
         Crystal
@@ -100,7 +108,7 @@ A Day Out (New Levels)
         This level, created by Luraman, has been added in A Day Out.
         Crystal
             The entrance has been placed higher.
-            Added platforms to main (Unintended solution fix).
+            The crystal has been placed higher (Unintended solution fix).
 
     Return
         This level, created by sigma144, has been added in A Day Out.

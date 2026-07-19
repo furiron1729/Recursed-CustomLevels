@@ -12,23 +12,23 @@ function start(is_wet)
 pKKKKKKq............
 I......I............
 I......I............
-#......I...........#
-9abc...#ddddddd#JJJJ
-tuv....=.......I...#
+I......I.......#JJJJ
+#......#dddddddI...4
+9abc...=.......I...#
 tuv............I...4
 tuv????!??...456...4
-tuv4555556ddd456...#
+tuv4555556ddd456...4
 tuv4555556...456...4
-tuv4555556...3K7...4
+tuv4555556...3K7...#
 tuv4555556.........#
-####555556.........4
-5555555556.........4
+####555556.........#
+5555555556.........#
 55555555555555555555
 ]])
-  Spawn("player", 2, 3)
-  Global("chest", 16.5, 3.5, "start")
-  Spawn("box", 18, 3.5)
-  Spawn("crystal", 17.5, 6.75)
+  Spawn("player", 2, 4)
+  Global("chest", 16.5, 2.5, "start")
+  Spawn("box", 18, 2.5)
+  Spawn("crystal", 17.5, 5.5)
 end
 
 function reject()
@@ -77,7 +77,7 @@ ggAAAgUUUUUUUUgggggg
 ggAAAgSUUUUUUUgghggg
 ggAAAgUUUUUUUUgggggg
 gggggggggggggggggggg
-gggggggggggggggggggg
+ggAAAgUUUUUUUUgggggg
 ]])
 else
   ApplyTiles(tile_mapping, 0, 0, [[
@@ -95,7 +95,7 @@ ggAAAg........gggggg
 ggAAAge.......gghggg
 ggAAAg........gggggg
 gggggggggggggggggggg
-gggggggggggggggggggg
+ggAAAgUUUUUUUUgggggg
 ]])
 end
   Spawn("player", 10, 12)

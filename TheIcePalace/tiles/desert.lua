@@ -80,3 +80,11 @@ cactus_l = {type=Tile.Empty, frame=76}
 cactus = {type=Tile.Empty, frame=77}
 cactus_r = {type=Tile.Empty, frame=78}
 cactus_rr = {type=Tile.Empty, frame=79}
+
+black = {type=Tile.Solid, frame=80}
+black_hole = {type=Tile.Solid, frame=81}
+black_l = {type=Tile.Empty, frame=82}
+black_r = {type=Tile.Empty, frame=83}
+ledge_x = {type=Tile.Ledge, frame=84}
+black_slope_l = {type=Tile.Solid, frame=85}
+black_slope_r = {type=Tile.Solid, frame=86}

@@ -6,6 +6,7 @@
 --   Tile placement       : choongmyoung
 
 local tile_mapping = {["."]="empty", ["0"]="empty_l", ["1"]="sand_top", ["2"]="empty_r", ["3"]="sand_dl", ["4"]="sand_d", ["5"]="sand_dr", ["6"]="dirt_ul", ["7"]="dirt_u", ["8"]="dirt_ur", ["9"]="block_ull", ["a"]="block_ul", ["b"]="block_u", ["c"]="block_ur", ["d"]="block_urr", ["e"]="slope_l", ["f"]="slope_r", ["g"]="slope_dark_l", ["h"]="sope_dark_r", ["i"]="slope_dirt_r", ["j"]="dummy20", ["k"]="sand_l", ["l"]="sand", ["m"]="sand_r", ["n"]="sand_ddl", ["o"]="blockdark", ["p"]="sand_ddr", ["q"]="dirt_l", ["r"]="dirt", ["s"]="dirt_r", ["t"]="block_ll", ["u"]="block_l", ["v"]="block_cr", ["w"]="block_r", ["x"]="block_rr", ["y"]="slope_sand_l", ["z"]="slope_sand_r", ["A"]="floor_l", ["B"]="floor_r", ["C"]="floor_dark_ur", ["D"]="cloud_l", ["E"]="cloud", ["F"]="cloud_r", ["G"]="cloud_ledge", ["H"]="sand_dddl", ["I"]="line", ["J"]="sand_dddr", ["K"]="dirt_dl", ["L"]="line_dark", ["M"]="dirt_dr", ["N"]="block_dll", ["O"]="block_dl", ["P"]="block_d", ["Q"]="block_dr", ["R"]="block_drr", ["S"]="dummy55", ["T"]="dummy56", ["U"]="dummy57", ["V"]="dummy58", ["W"]="floor_dark_r", ["X"]="glyph_a", ["Y"]="glyph_b", ["Z"]="glyph_c", ["@"]="glyph_d", ["#"]="glyph_e", ["$"]="glyph_f", ["%"]="glyph_g", ["="]="glyph_h", ["?"]="glyph_i", ["!"]="glyph_j", ["^"]="glyph_k", ["&"]="glyph_l", ["/"]="glyph_m", [":"]="glyph_n", [";"]="cactus_u", ["*"]="cactus_ll", ["+"]="cactus_l", ["~"]="cactus", ["-"]="cactus_r", ["_"]="cactus_rr"}
+local black = {["#"]="black", ["o"]="black_hole", ["l"]="black_l", ["r"]="black_r", ["-"]="ledge_x", ["L"]="black_slope_l", ["R"]="black_slope_r"}
 
 function start(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
@@ -122,33 +123,33 @@ EGGGGGGGGGGEF....DEE
 EF........DEF....DEE
 EF........DEF....DEE
 ]])
-  Spawn("player", 3, 10)
+  Spawn("player", 3, 11)
   Spawn("chest", 9.75, 3.5, "threadlessB")
 end
 
 function threadlessB(is_wet)
   ApplyTiles(tile_mapping, 0, 0, [[
-EEEEEEF...........DE
+EEEEEEEEEF........DE
 EF................DE
 EF................DE
 EF................DE
-EEEEEEEEGGGGEF....DE
-EEF.DEEF...DEF....DE
-EF...DEF...DEF....DE
-EF...DEEGGGGEF....DE
-EF.........DEF....DE
-EF.........DEF....DE
-EF...DEGGGGGEFDEF.DE
-EF...DEF......DEF.DE
-EF...DEF......DEF.DE
+EEEEEEEEEGGGGEF...DE
+EEF.........DEF...DE
+EF..........DEF...DE
+EF....DEGGGGGEF...DE
+EF....DEF.........DE
+EF...DEEF.........DE
+EF...DEEEEEEEEEEF.DE
+EEEEEEEEEEEEEEEEF.DE
+EEEEEEEEEEEEEEEEF.DE
 EEEEEEEEEEEEEEEEF.DE
 EEEEEEEEEEEEEEEEEEEE
 ]])
-  Spawn("player", 3.5, 12)
+  Spawn("player", 3.5, 10)
   Spawn("lock", 4.75, 2.5)
   Spawn("ruby", 2.75, 2.5)
   Spawn("key", 17.5, 13.5)
-  Spawn("chest", 6.5, 3.5, "threadlessC")
+  Global("chest", 7.5, 3.5, "threadlessC")
 end
 
 function threadlessC(is_wet)
@@ -171,6 +172,53 @@ EEEEEEEEEEEEEEEEEF.D
 ]])
   Spawn("player", 8, 11)
   Spawn("generic", 11.5, 11.5)
+end
+
+function reject(is_wet)
+  ApplyTiles(black, 0, 0, [[
+.........LR.........
+........L##R........
+.......L####R.......
+......L##rl##R......
+.....Lrl#..#rlR.....
+....L#..####..#R....
+...L####r..l####R...
+..L#............#R..
+.L##.....LR.....##R.
+L###............###R
+####............####
+#########--#########
+#########..#########
+#########..#########
+#########--#########
+]])
+  Spawn("player", 10, 13)
+  Spawn("chest", 10, 7, "reject2")
+end
+
+function reject2(is_wet)
+  ApplyTiles(black, 0, 0, [[
+########r...l#######
+########.....#######
+########.....#######
+#r....l#.....#######
+#......#.....#r...l#
+#..##..###.###.....#
+#......#o#.#o#.....#
+#......###.###.....#
+#-.............#...#
+#......###.###.....#
+#-.....#o#.#o#.....#
+#......###.#########
+#-######.....#######
+....................
+.........L#R........
+]])
+  Spawn("player", 4, 4)
+  Spawn("yield", 17.5, 10)
+  Global("fan", 15.5, 10)
+  Global("chest", 4, 10.5, "reject2")
+  Spawn("diamond", 10.5, 2.5)
 end
 
 tiles = "../TheIcePalace/tiles/desert"
