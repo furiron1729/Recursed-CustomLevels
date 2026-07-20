@@ -11,5 +11,15 @@ How to update
 
 2. Overwrite or add the enclosed TheIcePalace folder to the Recursed/TheIcePalace folder.
 
-3. Overwrite or add the enclosed data/TheIcePalace.lua file to the Recursed/data/TheIcePalace.lua file.
-    Note. Japanese-language mods are not supported.
+3. Overwrite or add the enclosed data/TheIcePalace.lua file to Recursed/data/TheIcePalace.lua.
+    If you are using the Japanese translation mod, overwrite TheIcePalace-ja.lua as well.
+
+
+------------------------------
+The Ice Palace: https://recursed-ice-palace.github.io/
+Recursed Unofficial Japanese translation MOD: https://plaza.rakuten.co.jp/zzzzzzzzzz/diary/202301140001/
+
+TheIcePalace-ja.lua is based on and modified from Japanese translation file created by Tomba.
+
+
+Editor: Napier
